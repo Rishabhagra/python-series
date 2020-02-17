@@ -10,7 +10,7 @@ def findstem(arr):
                 res = stem
     return res
 
-arr = ["fame", "tame", "bame"]
+arr = ["fame", "tame", "same"]
 common_substr = findstem(arr) 
 if len(common_substr)>1:
     print(common_substr)
